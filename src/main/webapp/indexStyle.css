@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Arial', sans-serif;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center; /* Aligns the container vertically */
+	background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(122).jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat; /* Fixed typo */
+	color: #333;
+}
+
+.container {
+	width: 600px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	text-align: center;
+}
+
+h1{
+	font-weight:bold;
+	color:1.6;
+}
+
+.links a{
+	margin:0 10px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.links a:hover{
+	color: #0056b3;
+	font-size: 20px;
+	text-transform: uppercase;
+}
